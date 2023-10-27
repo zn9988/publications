@@ -56,10 +56,7 @@ It is important to note that this DoS vulnerability primarily impacts users who 
 ----------------------------
 # Recommendation Remediation
 
-All TP-Link Tapo C100 customers must take action and apply the patch official firmware of **Tapo C100 V2.0 1.3.9 Build 231019 Rel.40264n** to address the vulnerability discovered in TAPO C100.
-
-# Reference
-
+All TP-Link Tapo C100 customers must take action and update the latest official firmware of **Tapo C100 V2.0 1.3.9 Build 231019 Rel.40264n** via the Tapo mobile app to address this vulnerability discovered in TAPO C100.
 
 
 ---------------------------
