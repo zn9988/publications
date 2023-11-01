@@ -1,12 +1,13 @@
 # Basic Information
-- Affected Product: TP-Link Tapo C100
-- Affected Version: v1.1.15 Build 211130 Rel.15378n(4555) or earlier
-- Vulnerability Name: HTTP Denial-of-service
-- Vulnerability Type: Denial-of-service
-- Vulnerability Score (refer to CVSS 3.1):  [6.5 Medium CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)
-- VDP: https://www.tp-link.com/us/press/security-advisory/
-- Researcher: Aden Yap (BAE Systems DI)
-- Date Reported: 1 June 2023
+- **CVE ID**: [CVE-2023-39610](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39610)
+- **Affected Product**: TP-Link Tapo C100
+- **Affected Version**: v1.1.15 Build 211130 Rel.15378n(4555) or earlier
+- **Vulnerability Name**: HTTP Denial-of-service
+- **Vulnerability Type**: Denial-of-service
+- **Vulnerability Severity Score** (refer to CVSS 3.1): 6.5 Medium [CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)
+- **VDP**: https://www.tp-link.com/us/press/security-advisory/
+- **Researcher**: Aden Yap (BAE Systems DI)
+- **Date Reported**: 1 June 2023
 
 ------------------------------
 # Description
@@ -58,6 +59,11 @@ It is important to note that this DoS vulnerability primarily impacts users who 
 
 All TP-Link Tapo C100 customers must take action and update the latest official firmware of **Tapo C100 V2.0 1.3.9 Build 231019 Rel.40264n** via the Tapo mobile app to address this vulnerability discovered in TAPO C100.
 
+# Reference:
+- MITRE : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9375
+- NVD : https://nvd.nist.gov/vuln/detail/CVE-2020-9375
+- TP-Link Tapo C100 : https://www.tp-link.com/my/support/download/tapo-c100/v2/
+
 
 ---------------------------
 # Timeline
@@ -65,4 +71,5 @@ All TP-Link Tapo C100 customers must take action and update the latest officia
 - 07.06.2023 - Recieved response from TP-Link
 - 05.07.2023 - TP-Link accepted this is valid vulnerability and will fix this issue in the new firmware release
 - 27.10.2023 - Tp-Link released firmware with fixed vulnerability
-- 27.11.2023 - Published technical details
+- 27.10.2023 - Published technical details
+- 31.10.2023 - Assigned CVE
