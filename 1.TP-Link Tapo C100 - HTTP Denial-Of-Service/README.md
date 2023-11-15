@@ -1,5 +1,5 @@
 # Basic Information
-- **CVE ID**: [CVE-2023-39610](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39610)
+- **CVE ID**: [CVE-2023-39610](https://nvd.nist.gov/vuln/detail/CVE-2023-39610)
 - **Affected Product**: TP-Link Tapo C100
 - **Affected Version**: v1.1.15 Build 211130 Rel.15378n(4555) or earlier
 - **Vulnerability Name**: HTTP Denial-of-service
@@ -60,8 +60,8 @@ It is important to note that this DoS vulnerability primarily impacts users who 
 All TP-Link Tapo C100 customers must take action and update the latest official firmware of **Tapo C100 V2.0 1.3.9 Build 231019 Rel.40264n** via the Tapo mobile app to address this vulnerability discovered in TAPO C100.
 
 # Reference:
-- MITRE : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9375
-- NVD : https://nvd.nist.gov/vuln/detail/CVE-2020-9375
+- MITRE : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39610
+- NVD : https://nvd.nist.gov/vuln/detail/CVE-2023-39610
 - TP-Link Tapo C100 : https://www.tp-link.com/my/support/download/tapo-c100/v2/
 
 
