@@ -61,9 +61,8 @@ All TP-Link Tapo C100 customers must take action and update the latest officia
 
 # Reference:
 - MITRE : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39610
+- TP-Link TAPO C100 Firmware Release Note: https://www.tp-link.com/en/support/download/tapo-c100/v2/#Firmware-Release-Notes
 - NVD : https://nvd.nist.gov/vuln/detail/CVE-2023-39610
-- TP-Link Tapo C100 : https://www.tp-link.com/my/support/download/tapo-c100/v2/
-
 
 ---------------------------
 # Timeline
