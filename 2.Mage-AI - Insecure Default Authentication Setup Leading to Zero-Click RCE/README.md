@@ -90,6 +90,12 @@ To automate the process of discovering unauthenticated Mage-AI application, we c
 
 **Figure 10: Nuclei template to scan the vulnerability**
 
+Based on our OSINT results, we randomly selected a few and found that three of them were susceptible to this potential vulnerability. Performing active reconnaissance on the internet could uncover even more vulnerable instances. Additionally, this issue might also affect systems hosted on enterprise internal networks.
+
+![Live Sample of the vulnereable instances on the internet](img/11.png)
+
+**Figure 11: Live Sample of the vulnereable instances on the internet**
+
 ---------------------------
 # Timeline
 - 06.05.2024 - Reported to Mage-AI Support
