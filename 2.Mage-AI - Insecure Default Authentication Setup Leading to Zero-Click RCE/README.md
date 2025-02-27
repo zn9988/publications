@@ -7,11 +7,12 @@
 - **Vulnerability Severity Score** (refer to CVSS 3.1): 9.8 Critical [CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
 - **VDP**: https://github.com/mage-ai/mage-ai/security
 - **Researcher**: Aden Yap & [Ali Radzali](https://github.com/H0j3n) (BAE Systems DI)
-- **Date Reported**: 27 Feburary 2025
+- **Date Reported**: 6 May 2024
+- **Date Published**: 27 Feburary 2025
 
 ------------------------------
 # Description
-The application lacks proper user authentication by default, allowing anyone to access it without authentication. Although there is an option to enable user authentication, it is not prominently displayed, and users may not be aware of its existence. This oversight poses a significant vulnerability. The absence of proper authentication opens the door for unauthorized access. An attacker could achieve zero-click remote code execution (RCE) due to this flaw. Essentially, an attacker can exploit the lack of authentication to execute arbitrary code without any user interaction. This represents a severe risk; this can lead to a compromise of the web service or the server..
+The application lacks proper user authentication by default, allowing anyone to access it without authentication. Although there is an option to enable user authentication, it is not prominently displayed, and users may not be aware of its existence. This oversight poses a significant vulnerability. The absence of proper authentication opens the door for unauthorized access. An attacker could achieve zero-click remote code execution (RCE) due to this flaw. Essentially, an attacker can exploit the lack of authentication to execute arbitrary code without any user interaction. This represents a severe risk; this can lead to a compromise of the web service or the server.
 
 -----------------------------
 # Proof Of Concept
