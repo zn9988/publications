@@ -1,5 +1,5 @@
 # Basic Information
-- **CVE ID**: (In progress of requesting)
+- **CVE ID**: [CVE-2025-2129](https://www.cve.org/CVERecord?id=CVE-2025-2129)
 - **Affected Product**: [Mage-AI](https://github.com/mage-ai/mage-ai)
 - **Affected Version**: v0.9.75 (Tested Latest Release before the publication - 6 December 2024), the vulnerability was reported in v0.9.69 (Release - March 28, 2024)
 - **Vulnerability Name**: Insecure Default Authentication Setup Leading to Zero-Click RCE
@@ -97,6 +97,10 @@ Based on our OSINT results, we randomly selected a few and found that three of t
 
 **Figure 11: Live Sample of the vulnereable instances on the internet**
 
+# Reference
+- MITRE : https://www.cve.org/CVERecord?id=CVE-2025-2129
+- NVD : https://nvd.nist.gov/vuln/detail/CVE-2025-2129
+- VulDB : https://vuldb.com/?id.299049
 ---------------------------
 # Timeline
 - 06.05.2024 - Reported to Mage-AI Support
@@ -104,3 +108,4 @@ Based on our OSINT results, we randomly selected a few and found that three of t
 - 03.01.2025 - After 7 months of repeated follow-ups, the Mage-AI has decided not to accept this issue as a valid security vulnerability and has confirmed that they will not be addressing it.
 - 27.02.2025 - Published technical details to warn Mage-AI users the potential risk and workaround
 - 27.02.2025 - Requesting CVE
+- 09.03.2025 - Assigned CVE
