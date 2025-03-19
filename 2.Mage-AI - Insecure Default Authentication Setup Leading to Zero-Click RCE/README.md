@@ -4,7 +4,7 @@
 - **Affected Version**: v0.9.75 (Tested Latest Release before the publication - 6 December 2024), the vulnerability was reported in v0.9.69 (Release - March 28, 2024)
 - **Vulnerability Name**: Insecure Default Authentication Setup Leading to Zero-Click RCE
 - **Vulnerability Type**: Insecure Default Configuration [CWE-1188](https://cwe.mitre.org/data/definitions/1188.html)
-- **Vulnerability Severity Score** (refer to CVSS 3.1): 9.8 Critical [CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
+- **Vulnerability Severity Score** (refer to CVSS 4.0): 6.3 Medium [CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N](https://www.first.org/cvss/calculator/4-0#CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N)
 - **VDP**: https://github.com/mage-ai/mage-ai/security
 - **Researcher**: Aden Yap & [Ali Radzali](https://github.com/H0j3n) (BAE Systems DI)
 - **Date Reported**: 6 May 2024
