@@ -85,7 +85,7 @@ We performed threat research analysis on the internet to discover vulnerable liv
 
 **Figure 9: 131 potential instances discovered on ZoomEye**
 
-To automate the process of discovering unauthenticated Mage-AI application, we created a harmless Nuclei template to scan for this vulnerability. Nuclei returns results from vulnerable instances, indicating whether the Mage-AI application has authentication enabled. If the Mage-AI application does not have authentication enabled and is further exploited, this vulnerability could potentially lead to remote code execution (RCE) on the target. Please note that once this vulnerability has been recognised, this Nuclei template will be published for security community contribution.
+To automate the process of discovering unauthenticated Mage-AI application, we created a harmless Nuclei template to scan for this vulnerability. Nuclei returns results from vulnerable instances, indicating whether the Mage-AI application has authentication enabled. If the Mage-AI application does not have authentication enabled and is further exploited, this vulnerability could potentially lead to remote code execution (RCE) on the target. The [Nuclei template CVE-2025-2129](https://github.com/projectdiscovery/nuclei-templates/blob/196ed9fe70b0f5d9b312c66ffa49ccd648e56a9e/http/cves/2025/CVE-2025-2129.yaml) has been published in Nuclei Vulnerability Scanner to help verify this vulnerability as a contribution to the security community.
 
 ![Nuclei template to scan the vulnerability](img/10.png)
 
@@ -109,3 +109,4 @@ Based on our OSINT results, we randomly selected a few and found that three of t
 - 27.02.2025 - Published technical details to warn Mage-AI users the potential risk and workaround
 - 27.02.2025 - Requesting CVE
 - 09.03.2025 - Assigned CVE
+- 24.03.2025 - [Nuclei Template Released for CVE-2025-2129](https://github.com/projectdiscovery/nuclei-templates/blob/196ed9fe70b0f5d9b312c66ffa49ccd648e56a9e/http/cves/2025/CVE-2025-2129.yaml)
